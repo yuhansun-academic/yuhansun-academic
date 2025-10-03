@@ -25,8 +25,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-# Yuhan Sun
-
 I am a PhD student in Computer Science at XYZ University.  
 My research interests include machine learning, data visualization, and AI for science.  
 
