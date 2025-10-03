@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "yuhansun-academic/yuhansun-academic",
+    "data-repo": "yuhansun-academic/yuhansun-academic.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
