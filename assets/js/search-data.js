@@ -451,7 +451,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-university-of-california-los-angeles",
+          title: 'University of California, Los Angeles',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2021-09-01-ucla-bs-neuroscience/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
