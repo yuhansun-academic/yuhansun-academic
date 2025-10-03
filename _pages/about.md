@@ -7,9 +7,10 @@ profile:
   align: right
   image: prof_pic.jpg
   address: |
-    CHS 53-392
-    10833 Le Conte Avenue
-    Los Angeles, CA 90095
+    <p>CHS 53-392</p>
+    <p>10833 Le Conte Avenue</p>
+    <p>Los Angeles, CA 90095</p>
+    <p><a href="mailto:yuhan.sun02@gmail.com">yuhan.sun02@gmail.com</a></p>
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
