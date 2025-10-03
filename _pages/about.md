@@ -6,7 +6,7 @@ permalink: /
 profile:
   align: right
   image: prof_pic.jpg
-  address: CHS 53-392<br> 10833 Le Conte Avenue<br> Los Angeles, CA 90095<br> <a href="mailto:yahan.sun02@gmail.com">yahan.sun02@gmail.com</a>
+  more_info: "CHS 53-392<br>10833 Le Conte Avenue<br>Los Angeles, CA 90095<br><a href='mailto:yahan.sun02@gmail.com'>yahan.sun02@gmail.com</a>"
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -29,10 +29,3 @@ My research interests include machine learning, data visualization, and AI for s
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
-
-📍 CHS 53-392  
-10833 Le Conte Avenue  
-Los Angeles, CA 90095  
-
-📧 [yahan.sun02@gmail.com](mailto:yahan.sun02@gmail.com)
-
