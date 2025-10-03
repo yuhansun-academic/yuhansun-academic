@@ -440,16 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-university-of-california-los-angeles",
-          title: 'University of California, Los Angeles',
+            },},{id: "news-ucla-bs-neuroscience",
+          title: 'Ucla Bs Neuroscience',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2021-09-01-ucla-bs-neuroscience/";
