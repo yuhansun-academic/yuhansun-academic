@@ -440,8 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-ucla-bs-neuroscience",
-          title: 'Ucla Bs Neuroscience',
+            },},{id: "news-university-of-california-los-angeles",
+          title: 'University of California, Los Angeles',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2021-09-01-ucla-bs-neuroscience/";
