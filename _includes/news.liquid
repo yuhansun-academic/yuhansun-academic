@@ -16,12 +16,18 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 25%">
+              {% if item.period %}
+                {{ item.period }}
+              {% elsif item.date %}
+                {{ item.date | date: '%b %d, %Y' }}
+              {% endif %}
+            </th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                <span class="news-title">{{ item.title }}</span>
               {% endif %}
             </td>
           </tr>
@@ -29,6 +35,6 @@
       </table>
     </div>
   {% else %}
-    <p>No news so far...</p>
+    <p>No education/training entries so far...</p>
   {% endif %}
 </div>
