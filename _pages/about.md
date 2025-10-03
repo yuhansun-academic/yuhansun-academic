@@ -6,7 +6,7 @@ permalink: /
 profile:
   align: right
   image: prof_pic.jpg
-  more_info: "CHS 53-392<br>10833 Le Conte Avenue<br>Los Angeles, CA 90095<br><a href='mailto:yahan.sun02@gmail.com'>yahan.sun02@gmail.com</a>"
+  more_info: "CHS 53-392<br>10833 Le Conte Avenue<br>Los Angeles, CA 90095<br><a href='mailto:yuhan.sun02@gmail.com'>yuhan.sun02@gmail.com</a>"
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
