@@ -17,23 +17,23 @@
         {% for item in news limit: news_limit %}
           <tr>
             <!-- Period -->
-            <th scope="row" style="width: 20%">
+            <th scope="row" style="width: 20%; text-align: left; font-weight: bold;">
               {% if item.period %}
                 {{ item.period }}
               {% elsif item.date %}
-                {{ item.date | date: '%b %d, %Y' }}
+                {{ item.date | date: '%b %Y' }}
               {% endif %}
             </th>
 
             <!-- Level -->
-            <td style="width: 20%">
+            <td style="width: 25%; text-align: center; font-style: italic;">
               {% if item.level %}
                 {{ item.level }}
               {% endif %}
             </td>
 
             <!-- Title -->
-            <td>
+            <td style="width: 55%; text-align: left;">
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
@@ -46,5 +46,8 @@
     </div>
   {% else %}
     <p>No education/training entries so far...</p>
+  {% endif %}
+</div>
+
   {% endif %}
 </div>
