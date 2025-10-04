@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-nu-rho-psi-research-award",
+            },{id: "post-trainee-professional-development-award-tpda",
+        
+          title: "Trainee Professional Development Award (TPDA)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tpda/";
+          
+        },
+      },{id: "post-nu-rho-psi-research-award",
         
           title: "Nu Rho Psi Research Award",
         
@@ -81,6 +92,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/nu-rho-psi/";
+          
+        },
+      },{id: "post-dean-s-prize-for-excellence-in-research",
+        
+          title: "Dean’s Prize for Excellence in Research",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/deans-prize/";
           
         },
       },{id: "books-the-godfather",
