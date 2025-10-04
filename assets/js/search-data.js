@@ -149,6 +149,28 @@ ninja.data = [{
             window.location.href = "/blog/2020/yau-science-award/";
           
         },
+      },{id: "post-international-genetically-engineered-machine-igem-gold-prize",
+        
+          title: "International Genetically Engineered Machine (iGEM) — Gold Prize",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2020/igem-gold/";
+          
+        },
+      },{id: "post-international-genetically-engineered-machine-igem-gold-prize-amp-best-basic-part-nomination",
+        
+          title: "International Genetically Engineered Machine (iGEM) — Gold Prize &amp; Best Basic Part Nomination...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2019/igem-gold-basic/";
+          
+        },
       },{id: "post-intel-international-science-and-engineering-fair-4th-place-material-science",
         
           title: "Intel International Science and Engineering Fair — 4th Place, Material Science",
