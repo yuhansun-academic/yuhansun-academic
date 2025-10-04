@@ -116,6 +116,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/deans-prize/";
           
         },
+      },{id: "post-whitcome-undergraduate-research-fellowship",
+        
+          title: "Whitcome Undergraduate Research Fellowship",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/whitcome-fellowship/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
