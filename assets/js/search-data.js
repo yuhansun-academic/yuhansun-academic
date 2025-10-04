@@ -127,6 +127,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/whitcome-fellowship/";
           
         },
+      },{id: "post-undergraduate-research-fellow-program-urfp-fellowship",
+        
+          title: "Undergraduate Research Fellow Program (URFP) Fellowship",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/urfp-fellowship/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
