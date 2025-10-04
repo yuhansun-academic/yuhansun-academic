@@ -203,6 +203,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2021-09-01-ucla-bs-neuroscience/";
+            },},{id: "news-massachusetts-institute-of-technology",
+          title: 'Massachusetts Institute of Technology',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-06-01-mit-visiting/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
