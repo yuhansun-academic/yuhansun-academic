@@ -3,19 +3,19 @@
     <table class="table table-sm table-borderless">
       {% for item in site.posts limit: page.latest_posts.limit %}
         <tr>
-          <th style="width: 15%">
+          <th style="width: 20%">
             {% if item.period %}
               {{ item.period }}
             {% else %}
               {{ item.date | date: '%b %Y' }}
             {% endif %}
           </th>
-          <td style="width: 40%">
+          <td style="width: 25%">
             {% if item.level %}
               {{ item.level }}
             {% endif %}
           </td>
-          <td style="width: 45%">
+          <td style="width: 55%">
             <span class="news-title">{{ item.title }}</span>
           </td>
         </tr>
