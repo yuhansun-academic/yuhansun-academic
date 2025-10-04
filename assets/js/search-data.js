@@ -208,6 +208,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2023-06-01-mit-visiting/";
+            },},{id: "news-university-of-california-los-angeles",
+          title: 'University of California, Los Angeles',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-09-01-ucla-postbacc/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
