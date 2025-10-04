@@ -94,6 +94,28 @@ ninja.data = [{
             window.location.href = "/blog/2024/nu-rho-psi/";
           
         },
+      },{id: "post-bruinlife-scholar",
+        
+          title: "BruinLife Scholar",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/bruinlife-scholar/";
+          
+        },
+      },{id: "post-dean-s-prize-for-excellence-in-research",
+        
+          title: "Dean’s Prize for Excellence in Research",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/deans-prize/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
