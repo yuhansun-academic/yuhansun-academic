@@ -138,6 +138,28 @@ ninja.data = [{
             window.location.href = "/blog/2022/urfp-fellowship/";
           
         },
+      },{id: "post-s-t-yau-high-school-science-award-national-semifinalist-2nd-place-chemistry",
+        
+          title: "S.-T. Yau High School Science Award — National Semifinalist, 2nd Place (Chemistry)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2020/yau-science-award/";
+          
+        },
+      },{id: "post-intel-international-science-and-engineering-fair-4th-place-material-science",
+        
+          title: "Intel International Science and Engineering Fair — 4th Place, Material Science",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2019/isef-4th-place/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
