@@ -16,13 +16,23 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 25%">
+            <!-- Period -->
+            <th scope="row" style="width: 20%">
               {% if item.period %}
                 {{ item.period }}
               {% elsif item.date %}
                 {{ item.date | date: '%b %d, %Y' }}
               {% endif %}
             </th>
+
+            <!-- Level -->
+            <td style="width: 20%">
+              {% if item.level %}
+                {{ item.level }}
+              {% endif %}
+            </td>
+
+            <!-- Title -->
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
