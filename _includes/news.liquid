@@ -26,14 +26,14 @@
             </th>
 
             <!-- Level -->
-            <td style="width: 25%; text-align: center; font-style: italic;">
+            <td style="width: 40%; text-align: center; font-style: italic;">
               {% if item.level %}
                 {{ item.level }}
               {% endif %}
             </td>
 
             <!-- Title -->
-            <td style="width: 55%; text-align: left;">
+            <td style="width: 40%; text-align: left;">
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
@@ -46,8 +46,5 @@
     </div>
   {% else %}
     <p>No education/training entries so far...</p>
-  {% endif %}
-</div>
-
   {% endif %}
 </div>
