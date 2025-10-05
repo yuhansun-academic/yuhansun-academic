@@ -1,21 +1,26 @@
 <div class="news">
   {% if page.latest_posts != blank %}
     <table class="table table-sm table-borderless">
-      {% for item in site.posts limit: page.latest_posts.limit %}
+      {% for item in site.posts %}
         <tr>
-          <th style="width: 15%">
+          <!-- Period -->
+          <th style="width: 15%; text-align: left; font-weight: bold;">
             {% if item.period %}
               {{ item.period }}
             {% else %}
               {{ item.date | date: '%b %Y' }}
             {% endif %}
           </th>
-          <td style="width: 40%">
+
+          <!-- Level -->
+          <td style="width: 40%; text-align: center; font-style: italic;">
             {% if item.level %}
               {{ item.level }}
             {% endif %}
           </td>
-          <td style="width: 45%">
+
+          <!-- Title -->
+          <td style="width: 45%; text-align: left;">
             <span class="news-title">{{ item.title }}</span>
           </td>
         </tr>
